@@ -1,0 +1,71 @@
+/*Ajustes Reset*/
+
+img {
+	max-width: 100%;
+}
+
+a, a:focus, a:active, a:hover, a:visited {
+    text-decoration:none;
+}
+
+/*Generales*/
+
+button {
+	width: 100px;
+	height: 46px;
+	background-color: #2b2b2b;
+	border: 3px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*Main*/
+.main {
+	width: 80%;
+	height: 100%;
+	background-color: #2b2b2b;
+	margin: 0 auto;
+}
+
+/*Portada*/
+.portada {
+	width: 100%;
+}
+
+/*Artista*/
+.artista {
+	width: 100%;
+	height: 90px;
+	background-color: #000;
+}
+
+
+.artista a h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.artista h3, p {
+	text-align: center;
+	color: #fff;
+}
+
+
+/*Plataformas*/
+.plataforma {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 20px;
+}
+
+.plataforma button {
+	margin: 0 auto;
+}
+
+.plataforma img {
+	margin: 0 auto;
+}
+
