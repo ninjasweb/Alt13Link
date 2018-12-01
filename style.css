@@ -11,13 +11,14 @@ a, a:focus, a:active, a:hover, a:visited {
 /*Generales*/
 
 button {
-	width: 100px;
+	width: 30%;
 	height: 46px;
 	background-color: #2b2b2b;
 	border: 3px solid #fff;
 	color: #fff;
 	text-transform: uppercase;
 	cursor: pointer;
+	overflow: hidden;
 }
 
 /*Main*/
@@ -68,5 +69,6 @@ button {
 
 .plataforma img {
 	margin: 0 auto;
+	width: 300px;
 }
 
